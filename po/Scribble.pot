@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-22 00:04+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: activity/activity.info:2
+msgid "Scribble"
+msgstr ""
+
+#: /home/sayamindu/Work/Devel/scribble/scribbleactivity.py:38
+msgid "Pencil"
+msgstr ""
+
+#: /home/sayamindu/Work/Devel/scribble/scribbleactivity.py:43
+msgid "Ellipse"
+msgstr ""
+
+#: /home/sayamindu/Work/Devel/scribble/scribbleactivity.py:49
+msgid "Rectangle"
+msgstr ""
+
+#: /home/sayamindu/Work/Devel/scribble/scribbleactivity.py:67
+msgid "Toolbox"
+msgstr ""
+
+#: /home/sayamindu/Work/Devel/scribble/miscwidgets.py:35
+msgid "JPEG"
+msgstr ""
+
+#: /home/sayamindu/Work/Devel/scribble/miscwidgets.py:39
+msgid "PNG"
+msgstr ""
+
+#: /home/sayamindu/Work/Devel/scribble/miscwidgets.py:44
+#: /home/sayamindu/Work/Devel/scribble/miscwidgets.py:45
+msgid "Export"
+msgstr ""
+
+#: /home/sayamindu/Work/Devel/scribble/miscwidgets.py:68
+#, python-format
+msgid "Exported image from %s"
+msgstr ""

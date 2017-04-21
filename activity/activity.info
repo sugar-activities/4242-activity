@@ -1,0 +1,10 @@
+[Activity]
+name = Scribble
+bundle_id = org.randomink.sayamindu.ScribbleActivity
+;class = scribbleactivity.ScribbleActivity
+exec = scribble_start
+icon = activity-scribble
+activity_version = 2
+host_version = 1
+show_launcher = yes
+license = GPLv2+

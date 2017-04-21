@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if [ "`uname -a | grep x86_64`" ]; then
+    export PYTHONPATH="$PYTHONPATH:$SUGAR_BUNDLE_PATH/libs/lib64"
+    export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$SUGAR_BUNDLE_PATH/libs/lib64"
+else
+    export PYTHONPATH="$PYTHONPATH:$SUGAR_BUNDLE_PATH/libs/lib"
+    export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$SUGAR_BUNDLE_PATH/libs/lib"
+fi
+
+exec sugar-activity scribbleactivity.ScribbleActivity $@
